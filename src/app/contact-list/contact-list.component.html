@@ -1,11 +1,14 @@
 <h2 class="text-primary">List of all Contacts</h2>
-
+<div class="search-container">
+    <span>Search:</span>
+    <input type="text" >
+</div>
 <table>
     <tr>
         <th>First name</th>
         <th>Last name</th>
         <th>Phone number</th>
-
+ 
     </tr>
     <tr *ngFor="let user of users">
         <td>{{user.firstname}}</td>

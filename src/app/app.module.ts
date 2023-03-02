@@ -8,6 +8,8 @@ import { DetailsComponent } from './details/details.component';
 import { AddContactComponent } from './add-contact/add-contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EditContactComponent } from './edit-contact/edit-contact.component';
+import { SearchContactComponent } from './search-contact/search-contact.component';
+import { Ng2SearchPipeModule } from "ng2-search-filter";
 
 @NgModule({
   declarations: [
@@ -16,6 +18,7 @@ import { EditContactComponent } from './edit-contact/edit-contact.component';
     DetailsComponent,
     AddContactComponent,
     EditContactComponent,
+    SearchContactComponent,
   ],
   imports: [
     BrowserModule,

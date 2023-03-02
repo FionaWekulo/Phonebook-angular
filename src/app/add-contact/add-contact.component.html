@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <label for="email">email</label>
+            <label for="email">Email Address</label>
             <input formControlName="email" type="email" class="form-control mb-2" required [(ngModel)]="user.email" name="email" placeholder="Enter Your email id">
             <div *ngIf="userForm.controls['email'].touched && userForm.controls['email'].invalid">
                 <span *ngIf="userForm.controls['email']!.errors['required']">This field is mandatory.</span>
@@ -48,12 +48,12 @@
             </div>
         </div>
         <div class="col-md-6">
-            <label for="address">Full Name</label>
+            <label for="address">Physical Address</label>
             <input formControlName="address" type="text" class="form-control mb-2" [(ngModel)]="user.address" name="address" placeholder="Enter Your address">
             <div *ngIf="userForm.controls['address'].touched && userForm.controls['address'].invalid">
                 <span *ngIf="userForm.controls['address'].errors['required']">This field is mandatory.</span>
             </div>
         </div>
     </div>
-    <button class="w-100 btn btn-lg btn btn-primary w-auto mb-4" type="submit" [disabled]="!userForm.valid">Add</button>
+    <button class="w-100 btn btn-lg btn btn-primary w-auto mb-4" type="submit" [disabled]="!userForm.valid">Add Contact</button>
 </form>
