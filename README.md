@@ -7,6 +7,7 @@ It is a phonebook software that allows users to save ythe contacts they want ove
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## To start database
+Make sure you have imported the database into XAMPP or MYSQL or created one with the same table and databse name
 Run `cd backend` to enter the backend directory
 Run `node api.js` to start database
 
